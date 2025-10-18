@@ -1,0 +1,94 @@
+{
+  "features": [
+    {
+      "given": "A user is interacting with the Amazon Chatbot.",
+      "when": "The user asks a question about a product's specifications, such as \"What are the dimensions of this TV?\"",
+      "then": "The chatbot accurately retrieves and displays the detailed product specifications for the requested item."
+    },
+    {
+      "given": "A user is interacting with the Amazon Chatbot.",
+      "when": "The user asks for user reviews or ratings for a specific product, such as \"How are the reviews for the new Kindle Paperwhite?\" or \"What's the overall rating for this smartphone?\"",
+      "then": "The chatbot retrieves and presents a summary of user reviews and the average rating for the specified product."
+    },
+    {
+      "given": "A user is interacting with the Amazon Chatbot.",
+      "when": "The user requests a comparison between two or more products, such as \"Compare the iPhone 15 with the Samsung Galaxy S24\" or \"What are the differences between these two laptops?\"",
+      "then": "The chatbot displays a comparative overview of the key specifications and features of the requested products."
+    },
+    {
+      "given": "A user is interacting with the Amazon Chatbot and has a browsing history on Amazon.",
+      "when": "The user asks for product recommendations, such as \"Suggest a new gadget for me\" or \"Show me similar fashion items.\"",
+      "then": "The chatbot provides personalized product suggestions based on the user's browsing history and previous interactions."
+    },
+    {
+      "given": "A user is interacting with the Amazon Chatbot.",
+      "when": "The user asks a question related to order status, delivery tracking, or return processes, such as \"Where is my order?\" or \"How do I return this item?\"",
+      "then": "The chatbot informs the user that it cannot handle such queries and redirects them to the appropriate existing customer support channels."
+    },
+    {
+      "given": "A user is interacting with the Amazon Chatbot.",
+      "when": "The user types a product-related query using natural language (e.g., \"Does this camera have optical zoom?\").",
+      "then": "The chatbot accurately understands the intent of the query and provides the correct product information."
+    },
+    {
+      "given": "A user is on a specific product's details page.",
+      "when": "The user asks the chatbot for comprehensive information about the product.",
+      "then": "The chatbot provides a single, detailed response covering specifications, technical details, warranty, bank offers, delivery timelines, and user reviews."
+    },
+    {
+      "given": "A user is viewing a product and wants to understand user reviews.",
+      "when": "The user asks the chatbot for feedback or a summary of product reviews.",
+      "then": "The chatbot provides an instant summary or insights into the product's user reviews to aid informed purchase decisions."
+    },
+    {
+      "given": "A user is considering a product and is concerned about the trustworthiness of user reviews.",
+      "when": "The user asks the chatbot to assess the reliability or highlight key sentiments from trustworthy reviews.",
+      "then": "The chatbot provides an assessment or curated insights to help the user gauge review trustworthiness."
+    },
+    {
+      "given": "A user is viewing a product with sizing variations (e.g., apparel, footwear).",
+      "when": "The user asks the chatbot for sizing guidance or user feedback on fit.",
+      "then": "The chatbot provides detailed size guides and/or relevant user feedback regarding the product's fit."
+    },
+    {
+      "given": "A user has completed an interaction with the chatbot and received a response.",
+      "when": "The system prompts the user to rate the helpfulness or provide feedback on the chatbot's response.",
+      "then": "The user is able to submit a rating and/or qualitative feedback on the chatbot's performance."
+    },
+    {
+      "given": "A user is interacting with the chatbot about a product.",
+      "when": "The user asks a query in natural, non-technical language, expressing an intent (e.g., discovery, decision-making).",
+      "then": "The chatbot accurately understands the user's intent using NLP and responds in simple, easy-to-understand language without jargon."
+    },
+    {
+      "given": "A user has an ongoing chatbot conversation on one device (e.g., mobile).",
+      "when": "The user switches to a different device (e.g., laptop) and accesses the chatbot.",
+      "then": "The chatbot resumes the conversation from the last interaction, remembering context, preferences, and browsing history across devices."
+    },
+    {
+      "given": "A user prefers to communicate with the chatbot in a vernacular language.",
+      "when": "The user initiates a query or interacts with the chatbot in their preferred non-English language.",
+      "then": "The chatbot understands and responds accurately in the user's chosen language, leveraging its multilingual support."
+    },
+    {
+      "given": "A user is on a product page and is interested in potential cost savings.",
+      "when": "The user asks the chatbot about available deals, discounts, or bank offers for the product.",
+      "then": "The chatbot highlights relevant budget-friendly deals, promotions, or bank offers related to the product."
+    },
+    {
+      "given": "A user has selected a particular product and is viewing its details page.",
+      "when": "The product details page fully loads.",
+      "then": "A clearly visible and intuitively placed chatbot icon appears on the screen, indicating its availability for assistance."
+    },
+    {
+      "given": "A user is interacting with the chatbot.",
+      "when": "The chatbot generates a response to the user's query.",
+      "then": "The response should be in natural language and easily comprehended by the user."
+    },
+    {
+      "given": "A user is currently viewing a product on Flipkart.",
+      "when": "The chatbot identifies an opportunity to suggest budget-friendly alternatives.",
+      "then": "The chatbot should suggest other budget-friendly deals, including photo, price, and percentage savings details, similar to the product the user is viewing."
+    }
+  ]
+}

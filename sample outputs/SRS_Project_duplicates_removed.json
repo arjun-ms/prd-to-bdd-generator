@@ -1,0 +1,269 @@
+{
+  "features": [
+    {
+      "given": "A customer is browsing products on XXX Online Shopping 24/7",
+      "when": "The customer selects desired products and proceeds to checkout",
+      "then": "The customer can successfully place an order easily."
+    },
+    {
+      "given": "A customer has successfully placed an order",
+      "when": "The system processes the order for delivery",
+      "then": "The order delivery is scheduled for the earliest possible time."
+    },
+    {
+      "given": "A customer makes purchases on XXX Online Shopping",
+      "when": "The system processes the customer's shopping information",
+      "then": "The system stores this information for developing product advertisements and improving marketing strategy."
+    },
+    {
+      "given": "A Store IT Personnel is logged into the system",
+      "when": "The IT Personnel uses the user interface to add a new product",
+      "then": "The product is correctly displayed on the system and stored in the database."
+    },
+    {
+      "given": "A Store IT Personnel is logged into the system",
+      "when": "The IT Personnel uses the user interface to remove an existing product",
+      "then": "The product is correctly removed from the system and the database."
+    },
+    {
+      "given": "A Store IT Personnel is adding or updating a product via the visual interface",
+      "when": "The IT Personnel uploads or modifies product images",
+      "then": "The product images are synchronized correctly in the visual interface of the system."
+    },
+    {
+      "given": "The system is monitoring its operational environment",
+      "when": "Inadequacy in hardware equipment or internet access speed is detected",
+      "then": "Information about the inadequacy is provided to the relevant department of the company."
+    },
+    {
+      "given": "A potential customer attempts to purchase a product online",
+      "when": "The customer is not a registered member of XXX Online Shopping",
+      "then": "The system requires the customer to register and become a member before completing the purchase."
+    },
+    {
+      "given": "A Store IT Personnel is logged into the system",
+      "when": "The IT Personnel navigates to the product management section",
+      "then": "Products are presented with a seamless graphical interface, allowing for add, remove, update, and associate operations."
+    },
+    {
+      "given": "Store Personnel is logged into the system",
+      "when": "The Store Personnel navigates to the product viewing section",
+      "then": "Products are presented with a seamless graphical interface."
+    },
+    {
+      "given": "A customer is browsing products through www.sanalmarket.com or the XXX Online Shopping Mobile Application",
+      "when": "The customer views a product",
+      "then": "The product is presented without problems and its stock status is specified."
+    },
+    {
+      "given": "A customer provides personal information while in contact with XXX Online Shopping",
+      "when": "XXX uses this personal information",
+      "then": "The information is used in accordance with the Privacy Policy."
+    },
+    {
+      "given": "A customer provides personal information while in contact with XXX Online Shopping",
+      "when": "XXX combines this information with other data",
+      "then": "XXX uses the combined information to prepare and improve its products, services, content, and advertisements."
+    },
+    {
+      "given": "A Store IT Personnel is logged into the system",
+      "when": "The IT Personnel accesses the sales analysis section",
+      "then": "The IT Personnel can analyze product sales data."
+    },
+    {
+      "given": "A Store IT Personnel is logged into the system",
+      "when": "The IT Personnel accesses the order management section",
+      "then": "The IT Personnel can instantly see and analyze orders."
+    },
+    {
+      "given": "Store Personnel is logged into the system",
+      "when": "The Store Personnel accesses the order viewing section",
+      "then": "The Store Personnel can instantly see orders."
+    },
+    {
+      "given": "Store Personnel views an order in the system",
+      "when": "The Store Personnel initiates the process to prepare the order for the supplier",
+      "then": "The system facilitates the preparation of the order to the supplier."
+    },
+    {
+      "given": "A customer's order is successfully placed and processed",
+      "when": "The ordered products are prepared for dispatch",
+      "then": "The quantity of the ordered products automatically falls from stocks."
+    },
+    {
+      "given": "A customer accesses the XXX Online Shopping Platform",
+      "when": "The customer navigates to the product catalog",
+      "then": "The customer can see all products available in XXX Online Shopping Platform."
+    },
+    {
+      "given": "A user wants to register as a new customer",
+      "when": "The user completes the registration process",
+      "then": "The system requires personal information including Address, Phone Number, TC Number, and Mail Address"
+    },
+    {
+      "given": "A Supplier is logged into the system",
+      "when": "The Supplier initiates sending an order",
+      "then": "The system allows the Supplier to successfully send the order"
+    },
+    {
+      "given": "A Supplier has an order assigned for preparation",
+      "when": "The Supplier interacts with the order in the system",
+      "then": "The system allows the Supplier to prepare the order"
+    },
+    {
+      "given": "A Customer visits the XXX stores online platform",
+      "when": "The Customer browses the store",
+      "then": "The Customer can see all products sold at XXX stores"
+    },
+    {
+      "given": "A Customer is a registered member and has added products to their cart",
+      "when": "The Customer proceeds to shop",
+      "then": "The system enables the Customer to buy the products in their cart"
+    },
+    {
+      "given": "Store Personnel identifies an order requiring preparation for a supplier",
+      "when": "The Store Personnel processes the order",
+      "then": "The system allows the Store Personnel to prepare the order to the supplier"
+    },
+    {
+      "given": "Store Personnel is monitoring product stock",
+      "when": "A product's stock level falls",
+      "then": "The Store Personnel can see products that have fallen from stock"
+    },
+    {
+      "given": "Store IT Personnel is logged into the system and navigating the product management interface",
+      "when": "The Store IT Personnel decides to add a product, provides the product ID and other details via the user interface",
+      "then": "The system adds the new product to the database"
+    },
+    {
+      "given": "Store IT Personnel is logged into the system and navigating the product management interface",
+      "when": "The Store IT Personnel selects the removal option and enters the corresponding product ID via the user interface",
+      "then": "The system deletes the product from the database"
+    },
+    {
+      "given": "Store IT Personnel is logged into the system and navigating the product management interface",
+      "when": "The Store IT Personnel selects an existing product for update and makes necessary changes via the user interface",
+      "then": "The system updates the product's details in the database"
+    },
+    {
+      "given": "The system is running and 'Store IT Personal' has a valid username and password.",
+      "when": "'Store IT Personal' enters the system and provides valid credentials.",
+      "then": "The system verifies the credentials and displays the 'Store IT Personal' menu."
+    },
+    {
+      "given": "The system is running and 'Store IT Personal' has a valid username and password.",
+      "when": "'Store IT Personal' enters an invalid username or password.",
+      "then": "The system displays an error message and prompts 'Store IT Personal' to try again."
+    },
+    {
+      "given": "The system is running and 'Store IT Personal' has attempted to log in with incorrect credentials 3 times.",
+      "when": "'Store IT Personal' enters an incorrect username or password for the 4th time.",
+      "then": "The system blocks the account and notifies 'Store IT Personal' to communicate with the system admin."
+    },
+    {
+      "given": "'Store IT Personal' is logged into the system and on the main menu.",
+      "when": "'Store IT Personal' selects 'show products' and enters a product ID.",
+      "then": "The system displays the selected product for 'Store IT Personal' to review."
+    },
+    {
+      "given": "'Store IT Personal' is logged into the system and on the main menu.",
+      "when": "'Store IT Personal' selects 'add products', the system creates an automatic ID, 'Store IT Personal' enters other product information, and clicks the 'add' button.",
+      "then": "The system saves the new product information and proceeds to allow 'Store IT Personal' to check for changes."
+    },
+    {
+      "given": "'Store IT Personal' is logged into the system and on the main menu, and a product with a specific ID exists.",
+      "when": "'Store IT Personal' selects 'product remove', enters the product ID, confirms the deletion by clicking 'delete' and then 'I am sure'.",
+      "then": "The system assigns the deleted product information to the 'deleted products' table in the database, deletes the product from the 'products' table, and proceeds to allow 'Store IT Personal' to check for changes."
+    },
+    {
+      "given": "'Store IT Personal' is in the process of removing a product, and the system has asked for confirmation of deletion.",
+      "when": "'Store IT Personal' clicks the 'I am not sure' button.",
+      "then": "The system cancels the deletion process for the product and returns to the previous step (e.g., displaying the product or the removal menu)."
+    },
+    {
+      "given": "'Store IT Personal' has made changes or initiated a transaction and sees a mistake.",
+      "when": "'Store IT Personal' clicks the 'Transaction cancellation' button.",
+      "then": "The system returns to its original state before the transaction or changes were made."
+    },
+    {
+      "given": "A customer is registered and logged in to the XXX online shopping platform, AND the customer has a valid credit card with sufficient funds.",
+      "when": "The customer views available products, AND adds desired products to the shopping cart, AND confirms the order, AND enters valid credit card details, AND the payment authentication system approves the transaction.",
+      "then": "The system processes the payment successfully, AND the supplier delivers the order and a bill to the customer, AND the customer receives the products within a short period of time."
+    },
+    {
+      "given": "A registered customer attempts to log in to the XXX online shopping platform.",
+      "when": "The customer enters an invalid password (within the allowed retry limit).",
+      "then": "The application displays an \"invalid password\" message, AND records the log, AND prompts the customer to try again."
+    },
+    {
+      "given": "A customer is making a purchase on the XXX online shopping platform, AND is at the step of entering credit card details.",
+      "when": "The customer enters invalid credit card details.",
+      "then": "The application displays an \"incorrect credit card information\" error message, AND prompts the customer to re-enter card details."
+    },
+    {
+      "given": "A customer is making a purchase on the XXX online shopping platform, AND has entered valid credit card details for verification.",
+      "when": "The customer's credit card has insufficient funds for the purchase.",
+      "then": "The system displays an error message indicating insufficient funds."
+    },
+    {
+      "given": "A person is browsing products on the application.",
+      "when": "The person selects products and attempts to add them to the basket, AND the system verifies that the person is not a member.",
+      "then": "The system notifies the person that they should become a member."
+    },
+    {
+      "given": "A customer has items in their shopping cart",
+      "when": "The customer attempts to complete a purchase and their account balance is insufficient for the total amount",
+      "then": "The application should display the error message: “Insufficient balance”"
+    },
+    {
+      "given": "A customer is viewing their shopping cart",
+      "when": "The customer adds, removes, or modifies quantities of items in the cart",
+      "then": "The shopping cart should reflect the updated items and quantities"
+    },
+    {
+      "given": "The application is operational",
+      "when": "A network failure occurs, causing the application to lose connectivity",
+      "then": "The application should become unavailable or 'out of order'"
+    },
+    {
+      "given": "A new user attempts to register",
+      "when": "The user provides a username that is already registered by another user",
+      "then": "The system should prevent registration with that username and inform the user"
+    },
+    {
+      "given": "A user is setting or updating their password",
+      "when": "The user enters a password that is less than 6 characters, more than 20 characters, contains no letters, or contains no digits",
+      "then": "The system should reject the password and inform the user about the required format (at least 6, at most 20 characters, at least 1 letter, and at least 1 digit)"
+    },
+    {
+      "given": "A potential customer wants to become a member",
+      "when": "The customer attempts to register without providing an email address or a password that meets the complexity rules",
+      "then": "The system should require the customer to enter an email address and a valid password"
+    },
+    {
+      "given": "A potential customer is registering as a member",
+      "when": "The customer proceeds with registration without providing their Name, Surname, Date of birth, Gender, T.C. Identification number, or Money Card Type",
+      "then": "The system should prompt the customer to provide all required personal information"
+    },
+    {
+      "given": "A user attempts to log in to the application",
+      "when": "The user provides valid credentials",
+      "then": "The system should authenticate the user and grant access to their account"
+    },
+    {
+      "given": "A user is logged in",
+      "when": "The user attempts to perform an action for which they do not have authorization",
+      "then": "The system should prevent the action and display an error message indicating unauthorized access"
+    },
+    {
+      "given": "A customer is experiencing a problem with the application",
+      "when": "The customer seeks help through the online support channel",
+      "then": "Online support should provide assistance to resolve the customer's problem"
+    },
+    {
+      "given": "A user's account is configured for Multi-Factor Authentication (MFA)",
+      "when": "The user attempts to log in after providing initial credentials",
+      "then": "The system should prompt the user for a second factor of authentication (e.g., a code from an authenticator app, an SMS code) before granting access"
+    }
+  ]
+}

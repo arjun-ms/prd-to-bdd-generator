@@ -1,0 +1,174 @@
+{
+  "features": [
+    {
+      "given": "A seller has uploaded a stamp for sale.",
+      "when": "The system processes the stamp for listing.",
+      "then": "The system authenticates the stamp."
+    },
+    {
+      "given": "A buyer has made an offer on a stamp.",
+      "when": "The seller attempts to accept the offer.",
+      "then": "The system authenticates the stamp prior to allowing acceptance."
+    },
+    {
+      "given": "A seller has listed a stamp with an offer price.",
+      "when": "A buyer chooses to accept the seller's offer.",
+      "then": "The system processes the offer acceptance."
+    },
+    {
+      "given": "A user (buyer or seller) is engaged in a negotiation over a stamp price.",
+      "when": "The user wishes to propose an alternative price.",
+      "then": "The system allows the user to submit a counter offer."
+    },
+    {
+      "given": "A seller is preparing to list a stamp for sale.",
+      "when": "The seller inputs the stamp details including its condition.",
+      "then": "The system applies a proprietary formula, considering stamp condition and market forces, to price the stamp."
+    },
+    {
+      "given": "A registered user is logged in as a seller.",
+      "when": "The user navigates to the 'Sell Stamp' section and provides stamp details and images.",
+      "then": "The system uploads the stamp information and makes it available for further processing (e.g., authentication, listing)."
+    },
+    {
+      "given": "A seller has a stamp listing that has been sold.",
+      "when": "The seller requests to delete the sold stamp listing.",
+      "then": "The system removes the sold stamp listing from active display."
+    },
+    {
+      "given": "An employee user is logged in and a stamp item has been sold and requires shipping.",
+      "when": "The employee user selects the sold item to fulfill.",
+      "then": "The system generates a shipping label for the sold item."
+    },
+    {
+      "given": "A new member registers as a seller.",
+      "when": "The system processes the seller registration.",
+      "then": "The system applies its proprietary 5-star rating system to rate the potential seller."
+    },
+    {
+      "given": "A seller has committed an offense according to system rules.",
+      "when": "A moderator or automated system flags the offense.",
+      "then": "The system logs the offense against the seller's rating, potentially affecting their overall score."
+    },
+    {
+      "given": "A moderator is logged into the administrative panel.",
+      "when": "The moderator views a stamp listing with associated member comments.",
+      "then": "The system displays all member comments for the moderator to review."
+    },
+    {
+      "given": "A moderator is monitoring member comments on a stamp listing.",
+      "when": "The moderator identifies an inappropriate comment and flags it for deletion.",
+      "then": "The system deletes the comment from the listing."
+    },
+    {
+      "given": "A moderator has deleted an inappropriate comment posted by a member.",
+      "when": "The moderator initiates logging an offense for the deleted comment.",
+      "then": "The system logs an offense against the commenting member's rating."
+    },
+    {
+      "given": "A new user is registering for an account.",
+      "when": "The user is prompted to select a username.",
+      "then": "The system allows the user to select their username only once during the initial registration process."
+    },
+    {
+      "given": "A buyer is proceeding with a payment for a stamp purchase.",
+      "when": "The buyer submits their payment information.",
+      "then": "The system securely processes the transaction using data encryption and SSL, and confirms the sale within 5 seconds."
+    },
+    {
+      "given": "A user is submitting an offer for an item.",
+      "when": "The offer form is not filled out correctly.",
+      "then": "The system rejects the offer."
+    },
+    {
+      "given": "An offer form has been filled out correctly.",
+      "when": "The provenance of the item is not accurate according to reference stamps.",
+      "then": "The system rejects the offer."
+    },
+    {
+      "given": "An offer form is filled out correctly AND provenance is accurate.",
+      "when": "The initial offer price is acceptable.",
+      "then": "The system accepts the offer."
+    },
+    {
+      "given": "An offer form is filled out correctly AND provenance is accurate, but the initial offer price is not acceptable.",
+      "when": "A counter-offer is proposed AND the counter-offer is NOT accepted.",
+      "then": "The system does NOT accept the offer."
+    },
+    {
+      "given": "An offer has been accepted.",
+      "when": "The authentication process confirms the item is authentic.",
+      "then": "The system considers the item authenticated and proceeds with the transaction."
+    },
+    {
+      "given": "A seller has completed a transaction.",
+      "when": "The item shipped does NOT match its description.",
+      "then": "The system allows editing of the member's rating and continues monitoring member comments."
+    },
+    {
+      "given": "An item matches its description and is authentic.",
+      "when": "The seller does NOT ship the item on time.",
+      "then": "The system allows editing of the member's rating and continues monitoring member comments."
+    },
+    {
+      "given": "A seller has shipped an item on time, the item matches its description, AND the item is authentic.",
+      "when": "The transaction review process occurs.",
+      "then": "The system continues monitoring member comments and the seller's rating remains stable or improves."
+    },
+    {
+      "given": "A user is on the main menu.",
+      "when": "The user clicks the 'Buying Form' option.",
+      "then": "The system displays the Buying Form screen header and item details."
+    },
+    {
+      "given": "The Buying Form screen is displayed.",
+      "when": "The user selects a Customer Name from the drop-down.",
+      "then": "The system displays the selected customer's name and details."
+    },
+    {
+      "given": "The Buying Form screen is displayed.",
+      "when": "The user enters a valid Member ID.",
+      "then": "The system displays the corresponding customer's name and details."
+    },
+    {
+      "given": "The Buying Form screen is displayed.",
+      "when": "The user enters an invalid Member ID.",
+      "then": "The system alerts the user and redisplays the Buying Form screen."
+    },
+    {
+      "given": "The user has entered the quantity and price for an item on the Buying Form.",
+      "when": "The system processes the entered values.",
+      "then": "The system calculates and displays the Line Total."
+    },
+    {
+      "given": "The user has filled out the Buying Form with valid data.",
+      "when": "The user clicks 'save'.",
+      "then": "The system validates the data and generates an invoice."
+    },
+    {
+      "given": "The user has filled out the Buying Form with invalid data.",
+      "when": "The user clicks 'save'.",
+      "then": "The system validates the data, identifies it as invalid, and returns to allow editing from Line #3."
+    },
+    {
+      "given": "A user is on the main menu.",
+      "when": "The user clicks 'Member Management'.",
+      "then": "The system displays the Member Management Screen."
+    },
+    {
+      "given": "The Member Management Screen is displayed.",
+      "when": "The user enters a Member Name.",
+      "then": "The system searches for and displays the Member's ID, Name, Rating, and Offenses."
+    },
+    {
+      "given": "Member details are displayed on the Member Management Screen.",
+      "when": "The user clicks 'Edit', edits the rating and/or offenses with valid data, and then clicks 'Save'.",
+      "then": "The system validates the data, displays a confirmation, and returns to the Main Menu."
+    },
+    {
+      "given": "The trading platform is designed for stamp purchases only.",
+      "when": "A user attempts to create a listing for a consignment item.",
+      "then": "The system does not provide options for or accept consignment listings."
+    }
+  ]
+}

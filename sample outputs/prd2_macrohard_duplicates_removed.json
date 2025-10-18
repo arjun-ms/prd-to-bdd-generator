@@ -1,0 +1,249 @@
+{
+  "features": [
+    {
+      "given": "The Perfect Selfie app is installed on a Windows 8.0 phone with Cortana enabled",
+      "when": "The user issues a voice command to launch the app",
+      "then": "The Perfect Selfie application should open and become active"
+    },
+    {
+      "given": "The Perfect Selfie app is running and connected to the AR Parrot Drone",
+      "when": "The user issues a voice command to make the drone take off (e.g., 'Drone, take off')",
+      "then": "The drone should initiate a take-off sequence and become airborne"
+    },
+    {
+      "given": "The Perfect Selfie app is running",
+      "when": "The user issues a voice command to navigate to a specific page (e.g., 'Go to Settings')",
+      "then": "The app should transition to and display the requested page"
+    },
+    {
+      "given": "The Perfect Selfie app is running and connected to the AR Parrot Drone",
+      "when": "The user navigates to the Live Feed page",
+      "then": "A live video stream from the drone's camera should be displayed on the phone"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying the Live Feed page with control joysticks",
+      "when": "The user manipulates the on-screen joysticks for tilt, forward/backward, pan, or vertical movement",
+      "then": "The drone should adjust its flight and orientation according to the joystick input"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying the Live Feed page",
+      "when": "The user taps the 'capture' button",
+      "then": "The drone should take a photo"
+    },
+    {
+      "given": "A photo has been captured on the Live Feed page",
+      "when": "The user taps the 'save photo' button",
+      "then": "The photo should be saved to a 'perfect selfie' folder within the phone's picture library"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying the Settings page",
+      "when": "The user adjusts the altitude limit slider",
+      "then": "The drone's maximum allowed flight altitude should be set to the selected value"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying the Settings page",
+      "when": "The user adjusts the speed limit slider",
+      "then": "The drone's maximum allowed flight speed should be set to the selected value"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying the Settings page",
+      "when": "The user taps the hyperlink to the phone's Wi-Fi settings",
+      "then": "The phone's Wi-Fi settings page should open, allowing the user to connect to the drone's network"
+    },
+    {
+      "given": "The Perfect Selfie app has saved photos in the 'perfect selfie' folder",
+      "when": "The user navigates to the main page of the app",
+      "then": "The saved photos should be displayed in a gridded photo library"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying saved photos on the main page",
+      "when": "The user selects a photo and chooses to delete it",
+      "then": "The selected photo should be removed from the 'perfect selfie' folder and the app's photo library display"
+    },
+    {
+      "given": "The Perfect Selfie app is displaying saved photos on the main page",
+      "when": "The user selects a photo and chooses to share it on social media",
+      "then": "The app should initiate the sharing process, making the photo available for selected social media platforms"
+    },
+    {
+      "given": "The Perfect Selfie app is active, the drone is airborne, and a subject is in view",
+      "when": "The drone's automatic orientation feature is engaged (e.g., via a mode selection or implied by app context)",
+      "then": "The drone should automatically adjust its position and orientation to keep the subject optimally framed for recording or photography"
+    },
+    {
+      "given": "The Photo Subject is on the app's start page and Cortana indicates it is accepting voice commands.",
+      "when": "The Photo Subject issues an acceptable voice command.",
+      "then": "Cortana turns the voice command into a specific action, and the app executes that action."
+    },
+    {
+      "given": "The drone is positioned in a clear area and the Windows Phone app is on the start page.",
+      "when": "The Photo Subject issues a command to the drone to take off.",
+      "then": "The drone raises to a previously specified height and starts transmitting a live feed to the photo user."
+    },
+    {
+      "given": "The drone is positioned and the Windows Phone app is on the start page.",
+      "when": "The Photo Subject issues a command to the drone to take off, but the drone faces obstacles.",
+      "then": "The drone safely lands and notifies the user that takeoff is not possible."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed to the phone.",
+      "when": "The Photo Subject issues a button command to take a picture.",
+      "then": "The drone takes the picture, transmits it to the phone, and the user can view it in the phone's picture library."
+    },
+    {
+      "given": "The drone is in the air.",
+      "when": "The Photo Subject issues a button command to take a picture, but the drone is unable to establish a connection with the phone.",
+      "then": "The phone returns a message saying that the connection cannot be established."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed.",
+      "when": "The user issues a voice command for the drone to reposition itself (e.g., pan right, pan left).",
+      "then": "The drone repositions itself and transmits a new live feed to the user."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed.",
+      "when": "The user issues a voice command for the drone to reposition itself, but the drone faces an obstacle.",
+      "then": "The drone notifies the Windows Phone app that the requested action is not possible."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed.",
+      "when": "The user issues a voice command for the drone to land.",
+      "then": "The drone stops transmitting the live feed and descends until it safely lands on the ground."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed.",
+      "when": "The user issues a voice command for the drone to land, but the drone is unable to establish a connection with the user.",
+      "then": "The Windows app notifies the user that the connection cannot be established."
+    },
+    {
+      "given": "The drone is in the air and transmitting a live feed.",
+      "when": "The user issues a voice command for the drone to land, but the drone is unable to land due to obstacles.",
+      "then": "The drone notifies the Windows app that landing is not possible."
+    },
+    {
+      "given": "The user is on the settings page and sees the speed slider.",
+      "when": "The user slides the slidebar to the expected speed setting.",
+      "then": "The slidebar moves, displays the new speed, the drone receives the new speed setting, and sends confirmation, ensuring the drone cannot move faster than the specified speed."
+    },
+    {
+      "given": "the user is on the phone settings page and is able to see the altitude slider",
+      "when": "the user moves the altitude slidebar to a desired altitude",
+      "then": "the slidebar moves and displays the new altitude, the drone receives the new setting, the drone sends a confirmation to the user, and the drone is unable to fly higher than the specified altitude"
+    },
+    {
+      "given": "the user is on the phone settings page and is able to see the Photo Distance level",
+      "when": "the user selects a desired photo distance",
+      "then": "the selected photo distance button is highlighted, the drone receives the new photo distance setting, the drone sends a confirmation to the user, and the drone will now move at the desired distance away from the photo subject before taking a picture"
+    },
+    {
+      "given": "the drone is in the air and transmitting a live feed",
+      "when": "the user clicks the recording icon to start recording and then clicks it again to stop recording",
+      "then": "the drone starts recording, the Windows phone app displays a recording icon, the video recording stops, and the video is stored in the phone picture library"
+    },
+    {
+      "given": "the drone is in the air, transmitting a live feed, and recording is in progress",
+      "when": "the connection between the app and the drone is lost",
+      "then": "the recording is stopped, the drone sends a signal that the connection was lost, and the recorded video is stored in the phone picture library"
+    },
+    {
+      "given": "a photo/video recording is in the phone's picture library",
+      "when": "the user clicks on upload picture on the cloud upload page in the app and selects the desired picture/video recording",
+      "then": "the photo/video is uploaded to the cloud storage"
+    },
+    {
+      "given": "a photo/video recording is in the phone's picture library and the user attempts to upload it to cloud storage",
+      "when": "the WiFi connection is lost during the upload",
+      "then": "the phone returns a message indicating that the WiFi connection is lost"
+    },
+    {
+      "given": "a photo/video is saved in the app’s folder in the picture library",
+      "when": "the user selects a photo on the main page, selects the “share photo” option, chooses a preferred social media channel, and logs in if required",
+      "then": "the photo is uploaded and posted on the selected form of social media"
+    },
+    {
+      "given": "a photo/video is saved in the app’s folder in the picture library and the user attempts to upload it to social media",
+      "when": "the WiFi connection is lost, the account does not exist, or the user is not logged in",
+      "then": "an error message with the appropriate warning is displayed"
+    },
+    {
+      "given": "the user is connected to and controlling the drone",
+      "when": "the drone crashes or runs into something",
+      "then": "the drone automatically turns off its engines and stops its propellers, the drone remains on and connected, a warning is displayed on the phone app, the emergency button on the app is triggered, and the drone remains stagnant"
+    },
+    {
+      "given": "the user is on the live feed page and is able to click the “Emergency” button",
+      "when": "the user clicks the “Emergency” button",
+      "then": "an emergency event is toggled, and the drone initiates a landing procedure"
+    },
+    {
+      "given": "The drone is in the air and operating normally.",
+      "when": "The user clicks the \"Emergency\" button on the control interface.",
+      "then": "The drone immediately drops from its preprogrammed height and makes a fast landing, coming to rest on the ground."
+    },
+    {
+      "given": "The user is on the live feed page, taking a picture, with the drone in the air.",
+      "when": "The user drops the phone.",
+      "then": "The phone's accelerometer reads the drop, and the drone descends from its pre-programmed height, making a fast landing and coming to rest on the ground."
+    },
+    {
+      "given": "The drone is in the air and its battery level becomes low.",
+      "when": "The drone senses its low battery condition.",
+      "then": "The drone transmits a message to the phone indicating its low battery, and transmits its current battery level, notifying the user."
+    },
+    {
+      "given": "The drone is in the air and its battery level becomes low.",
+      "when": "The drone loses connection with the phone.",
+      "then": "The drone attempts to land."
+    },
+    {
+      "given": "The drone is in the air and its battery is at the point of running out.",
+      "when": "The drone's battery runs out.",
+      "then": "The drone sends a message indicating a low battery, starts descending, and the phone switches to the joystick screen, giving the user control of the drone."
+    },
+    {
+      "given": "The drone is in the air and its battery is at the point of running out.",
+      "when": "The drone loses connection with the phone.",
+      "then": "The drone automatically lands, coming to rest on the ground."
+    },
+    {
+      "given": "The drone is in the air, and the phone has sent a command to the drone.",
+      "when": "The phone runs out of battery and stops sending commands.",
+      "then": "The drone waits for a new command from the phone for up to 2 minutes, and if no new command is received, the drone lands on the ground."
+    },
+    {
+      "given": "The drone is in the air and connected to a Windows Smartphone.",
+      "when": "The drone receives a command from another compatible device.",
+      "then": "The Windows Smartphone interface changes to display an emergency land button, the original user presses this button, and the drone lands and turns off."
+    },
+    {
+      "given": "The drone is in the air and connected to a Windows Smartphone.",
+      "when": "The drone receives a command from another compatible device, and the drone is unable to receive an emergency land request from the original user.",
+      "then": "Control of the drone is transferred to the user of the other connected device."
+    },
+    {
+      "given": "The drone is in the air.",
+      "when": "An external event causes the drone to exceed its max set altitude limit.",
+      "then": "The phone executes an automatic landing procedure to prevent the drone from flying far away, and the drone lands on the ground."
+    },
+    {
+      "given": "The drone is in the air.",
+      "when": "An external event causes the drone to exceed its max set altitude limit, and the automatic landing procedure command from the phone fails to go through.",
+      "then": "The drone lands after 2 minutes of inactivity, coming to rest on the ground."
+    },
+    {
+      "given": "The drone is in the air and moving at or below its set maximum speed.",
+      "when": "Physical conditions cause the drone to start moving faster than its max speed.",
+      "then": "The drone senses it's moving faster than max speed, slows down to max speed, and messages the phone about the overspeed condition."
+    },
+    {
+      "given": "The drone is in the air and moving at or below its set maximum speed.",
+      "when": "Physical conditions cause the drone to start moving faster than its max speed, and the drone loses connection with the phone.",
+      "then": "The drone slows down to its max speed, but does not send a message to the phone."
+    },
+    {
+      "given": "The drone is in the air and attempting live feed transmission, but the live feed is not being transmitted.",
+      "when": "The user lands the drone, then resets the drone, and subsequently commands the drone to take off.",
+      "then": "The drone is now able to transmit live feed and remains in the air."
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "features": [
+    {
+      "given": "A manual recruitment process is in place at the college",
+      "when": "The Campus Recruitment System is utilized",
+      "then": "The overall recruitment process for the college should be optimized"
+    },
+    {
+      "given": "Applicants have registered their qualifications and companies have specified their requirements within the system",
+      "when": "A company performs a search for suitable candidates",
+      "then": "The system should sort qualified applicants based on their qualifications and the company's requirements"
+    },
+    {
+      "given": "Applicants have registered their skills and areas of interest within the system",
+      "when": "The system analyzes applicant profiles",
+      "then": "The system should predict suitable companies or placement opportunities for the applicant based on their skills and areas of interest"
+    },
+    {
+      "given": "A student from the college wishes to participate in the recruitment process",
+      "when": "The student interacts with the Campus Recruitment System",
+      "then": "The student should be able to register and communicate with the placement office"
+    },
+    {
+      "given": "A user (student or company) does not have an account in the Campus Recruitment System",
+      "when": "The user attempts to create a new account",
+      "then": "The system should allow the user to create an account and display a successful message"
+    },
+    {
+      "given": "A registered user (student, company, or admin) has an existing account in the Campus Recruitment System",
+      "when": "The user attempts to log in with their credentials",
+      "then": "The system should authenticate the user, log them in, display a successful message, and provide utilities relevant to their role"
+    },
+    {
+      "given": "A student is logged into their account in the Campus Recruitment System",
+      "when": "The student searches for and views available job postings",
+      "then": "The student should be able to successfully apply for a chosen job post"
+    },
+    {
+      "given": "A student is logged into their account in the Campus Recruitment System",
+      "when": "The student navigates to their profile or settings",
+      "then": "The student should be able to update their personal details and change their password"
+    },
+    {
+      "given": "A company is logged into their account in the Campus Recruitment System",
+      "when": "The company accesses their job management features",
+      "then": "The company should be able to post new jobs and update the details of existing available jobs"
+    },
+    {
+      "given": "A company is logged into their account and has active job postings in the Campus Recruitment System",
+      "when": "The company views a specific job posting",
+      "then": "The company should be able to view the number of candidates who have applied for that job"
+    },
+    {
+      "given": "An admin is logged into their account in the Campus Recruitment System",
+      "when": "The admin reviews student accounts and activities",
+      "then": "The admin should be able to validate student accounts and remove students if any discrepancy is found"
+    },
+    {
+      "given": "An admin is logged into their account in the Campus Recruitment System",
+      "when": "The admin accesses the system management features",
+      "then": "The admin should be able to manage all activities related to both students and companies within the system"
+    },
+    {
+      "given": "A user (admin, student, or company) has an existing account.",
+      "when": "The user attempts to log in with valid credentials.",
+      "then": "The login is successful, and the user gains access to the system."
+    },
+    {
+      "given": "A user (admin, student, or company) is currently logged in.",
+      "when": "The user performs a logout action.",
+      "then": "The user is successfully logged out of the system."
+    },
+    {
+      "given": "A user (admin, student, or company) is logged in.",
+      "when": "The user updates their personal or account details.",
+      "then": "Their details are successfully updated and reflected in their profile."
+    },
+    {
+      "given": "A user (admin, student, or company) is logged in and has an existing password.",
+      "when": "The user changes their password.",
+      "then": "The user's password is successfully reset/updated."
+    },
+    {
+      "given": "An admin is logged in and at least one company exists in the system.",
+      "when": "The admin performs management actions on a company (e.g., validation, status update).",
+      "then": "The company's status is updated as per admin's action, and it can continue with its account."
+    },
+    {
+      "given": "An admin is logged in and at least one student exists in the system.",
+      "when": "The admin performs management actions on a student (e.g., validation, status update).",
+      "then": "The student's status is updated as per admin's action, and they can continue with their account."
+    },
+    {
+      "given": "A student is logged in, an eligible job is posted by a company, and the student meets the job's eligibility criteria.",
+      "when": "The student applies for the job.",
+      "then": "The student successfully applies for the job and awaits a response from the company."
+    },
+    {
+      "given": "A student is logged in and has successfully applied for a job.",
+      "when": "The student views their job application status.",
+      "then": "The student sees the job status and can accept the job if selected, or apply for other jobs if not."
+    },
+    {
+      "given": "A student has an account and is logged in.",
+      "when": "The student searches for jobs using various criteria.",
+      "then": "The system displays available jobs matching the criteria, or indicates that no jobs are found."
+    },
+    {
+      "given": "A company has an account and is logged in.",
+      "when": "The company posts a new job.",
+      "then": "The job is successfully posted and is available for students to apply."
+    },
+    {
+      "given": "A company is logged in and at least one student has applied for one of its jobs.",
+      "when": "The company views the applications submitted by students.",
+      "then": "The company can see the student applications and react to them (e.g., shortlist, reject)."
+    },
+    {
+      "given": "A user (admin, student, or company) needs assistance with logging in.",
+      "when": "The user accesses the help feature for login.",
+      "then": "The user receives guidance that enables them to log in."
+    },
+    {
+      "given": "The Campus Recruitment System requires persistent storage for structured data.",
+      "when": "Data such as contact information needs to be saved or retrieved.",
+      "then": "SQLite will be used as the primary database for the Android application."
+    },
+    {
+      "given": "A user installs the Campus Recruitment System application.",
+      "when": "The application is launched on an Android device.",
+      "then": "The application must be fully functional on Android systems running version 5.1 or greater."
+    },
+    {
+      "given": "The Campus Recruitment System is established on Android.",
+      "when": "The system expands its platform support.",
+      "then": "The system will also be made available for iOS mobiles, PCs, and Laptops."
+    },
+    {
+      "given": "A company posts a vacancy on the Campus Recruitment System portal.",
+      "when": "Multiple students of the same specialty attempt to apply for the same vacancy.",
+      "then": "A workflow system shall be designed to prevent duplicate applications from students of the same specialty and appropriately route vacancy requests."
+    },
+    {
+      "given": "The Campus Recruitment System stores accumulated user and company data.",
+      "when": "The system's data storage requirements are assessed.",
+      "then": "The system must be capable of storing a maximum of 64GB of data."
+    },
+    {
+      "given": "A student is navigating company selections and interview preparations.",
+      "when": "The student seeks guidance on required skills and company eligibility.",
+      "then": "A machine learning algorithm shall predict relevant skills and eligibility, continuously improving its accuracy by training on historical data."
+    },
+    {
+      "given": "An administrator manages the Campus Recruitment System database.",
+      "when": "A student account remains inactive (no login) for one year.",
+      "then": "The inactive student's data shall be archived to a parallel database."
+    },
+    {
+      "given": "A user opens the Android application for the first time",
+      "when": "The application launches",
+      "then": "The user is presented with the login screen"
+    },
+    {
+      "given": "A user is on the login screen",
+      "when": "The user has not registered and chooses to sign up",
+      "then": "The user is redirected to the sign-up page"
+    },
+    {
+      "given": "A student successfully creates an account",
+      "when": "The student logs in with their credentials",
+      "then": "The student gains access to the application and can apply for jobs"
+    },
+    {
+      "given": "A company wants to use the system",
+      "when": "The company signs up for an account and then attempts to log in",
+      "then": "The company is able to successfully log in"
+    },
+    {
+      "given": "An administrator wants to manage the system",
+      "when": "The administrator accesses the web portal and logs in",
+      "then": "The administrator can administer the system by managing students and companies"
+    },
+    {
+      "given": "A student has successfully logged into the application",
+      "when": "The main application interface is displayed",
+      "then": "The student sees a side menu for navigation"
+    },
+    {
+      "given": "A company has successfully logged into the application",
+      "when": "The main application interface is displayed",
+      "then": "The company sees a side menu for navigation"
+    },
+    {
+      "given": "An administrator has successfully logged into the web portal",
+      "when": "The main administrative interface is displayed",
+      "then": "The administrator sees a side menu for navigation"
+    },
+    {
+      "given": "A company is logged in",
+      "when": "The company selects the option to add jobs",
+      "then": "The company can add vacancies for their company"
+    },
+    {
+      "given": "A user is logged in and sees the side menu",
+      "when": "The user selects a particular section",
+      "then": "The user can perform the respective task"
+    },
+    {
+      "given": "A student has already submitted 30 application forms for jobs at a specific company",
+      "when": "The student attempts to submit an application for an additional job at the same company",
+      "then": "The system prevents the student from submitting the application"
+    },
+    {
+      "given": "A user performs an action that results in an error",
+      "when": "An error condition is triggered",
+      "then": "An error message appears as a popup on the screen, with a maximum size of 40 characters"
+    },
+    {
+      "given": "A student attempts to register with an ID that already exists in the system",
+      "when": "The student submits the registration form",
+      "then": "The system rejects the registration and informs the student that the ID is already taken"
+    },
+    {
+      "given": "A company attempts to register with an ID that already exists in the system",
+      "when": "The company submits the registration form",
+      "then": "The system rejects the registration and informs the company that the ID is already taken"
+    },
+    {
+      "given": "A user is on the sign-up page",
+      "when": "The user provides valid student registration details and submits the form",
+      "then": "A new student account is created, and the student is successfully registered"
+    },
+    {
+      "given": "A user is on the sign-up page",
+      "when": "The user provides valid company registration details and submits the form",
+      "then": "A new company account is created, and the company is successfully registered"
+    },
+    {
+      "given": "A user is on the sign-up page",
+      "when": "The user provides valid admin registration details and submits the form",
+      "then": "A new admin account is created, and the admin is successfully registered"
+    },
+    {
+      "given": "A registered user (student, company, or admin) is on the login page",
+      "when": "The user enters valid credentials and submits",
+      "then": "The user is successfully logged in and directed to their respective dashboard"
+    },
+    {
+      "given": "A user is on the login page",
+      "when": "The user enters invalid credentials and submits",
+      "then": "An appropriate error message is displayed, and the user remains on the login page"
+    },
+    {
+      "given": "A student user is logged in",
+      "when": "The student navigates to their profile, updates their information, and saves changes",
+      "then": "The student's profile information is successfully updated in the system"
+    },
+    {
+      "given": "A user (student, company, or admin) is logged in",
+      "when": "The user navigates to the change password section, enters current and new passwords, and submits",
+      "then": "The user's password is successfully updated"
+    },
+    {
+      "given": "A company user is logged in",
+      "when": "The company user navigates to the job posting section, provides valid job details, and submits",
+      "then": "A new job is successfully posted and becomes visible to students"
+    },
+    {
+      "given": "A student user is logged in and views available jobs",
+      "when": "The student selects a job and initiates the application process",
+      "then": "The student's application for the selected job is recorded in the system"
+    },
+    {
+      "given": "A student user is logged in and has applied for jobs",
+      "when": "The student navigates to their job applications section",
+      "then": "The student can view the status of their applied jobs"
+    },
+    {
+      "given": "A student user is logged in",
+      "when": "The student uses the search functionality with specific keywords or filters",
+      "then": "A list of jobs matching the search criteria is displayed"
+    },
+    {
+      "given": "An admin user is logged in",
+      "when": "The admin navigates to the 'Manage Student' section and performs an action (e.g., view, edit, delete)",
+      "then": "The selected action on the student record is successfully performed"
+    },
+    {
+      "given": "An admin user is logged in",
+      "when": "The admin navigates to the 'Manage Company' section and performs an action (e.g., view, edit, delete)",
+      "then": "The selected action on the company record is successfully performed"
+    },
+    {
+      "given": "A company user is logged in and has posted jobs",
+      "when": "The company user navigates to the 'View Applications' section for one of their posted jobs",
+      "then": "The company user can view all applications submitted by students for that job"
+    },
+    {
+      "given": "A company user is logged in and viewing student applications for a job",
+      "when": "The company user selects a student application and initiates the 'Call for Interview' action",
+      "then": "The selected student is notified of the interview call, and the application status is updated accordingly"
+    },
+    {
+      "given": "A user attempts to access a protected page (e.g., admin dashboard, another user's private data)",
+      "when": "The user is not authenticated or not authorized for that specific page",
+      "then": "The system denies access and either prompts for login or displays an 'access denied' message"
+    },
+    {
+      "given": "A user is on any form requiring input (e.g., registration, job posting)",
+      "when": "The user submits the form with invalid or missing required data",
+      "then": "The system displays specific error messages for the invalid fields, preventing form submission"
+    },
+    {
+      "given": "A user from an institution other than National Institute of Technology, Surathkal, Karnataka",
+      "when": "They attempt to access the system",
+      "then": "Access to the system should be denied."
+    },
+    {
+      "given": "A user affiliated with National Institute of Technology, Surathkal, Karnataka",
+      "when": "They attempt to access the system",
+      "then": "They should be presented with a login screen requiring a user-id and password."
+    },
+    {
+      "given": "A user provides a valid login-id and password",
+      "when": "They attempt to log in",
+      "then": "They should be successfully granted access to the system."
+    },
+    {
+      "given": "A student has already accepted a recruitment offer from one company",
+      "when": "Another company attempts to recruit the same student",
+      "then": "The system should prevent the student from being recruited by the second company."
+    },
+    {
+      "given": "A company has officially selected a candidate",
+      "when": "The company attempts to reject the selected candidate",
+      "then": "The system should prevent the rejection and mark the company as blacklisted."
+    },
+    {
+      "given": "A student already has an active account in the system",
+      "when": "The same student attempts to create an additional account",
+      "then": "The system should prevent the creation of a duplicate account for that student."
+    },
+    {
+      "given": "An invalid action is performed by a user",
+      "when": "The system encounters an error",
+      "then": "A descriptive and easily understandable error message should be displayed to the user."
+    }
+  ]
+}

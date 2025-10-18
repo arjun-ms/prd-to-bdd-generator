@@ -1,0 +1,234 @@
+{
+  "features": [
+    {
+      "given": "An employee is logged into the system",
+      "when": "They initiate a sales transaction and enter customer information, medicine name, quantity, and unit price",
+      "then": "The system should record the sales transaction with all provided details"
+    },
+    {
+      "given": "An employee is performing a sales transaction",
+      "when": "They use a barcode scanner to add medicine or manually enter medicine details",
+      "then": "The system should support both barcode scanning and manual entry for efficient sales processing"
+    },
+    {
+      "given": "A sales transaction has been completed for a specific medicine",
+      "when": "The system processes the sale",
+      "then": "The available quantity of that medicine in the inventory should automatically update in real-time"
+    },
+    {
+      "given": "The stock level of a particular medicine is monitored by the system",
+      "when": "The available quantity of that medicine falls below its predefined threshold",
+      "then": "The system should generate a notification to alert employees"
+    },
+    {
+      "given": "Sales data is recorded in the system",
+      "when": "An employee accesses the sales performance tracking tools",
+      "then": "The system should provide metrics such as total sales, top-selling medicines, and sales trends over time"
+    },
+    {
+      "given": "An employee is authorized to purchase medicine",
+      "when": "They create a purchase order for medicines from an authorized distributor, specifying details like quantity and expiration dates",
+      "then": "The system should successfully record the purchase order"
+    },
+    {
+      "given": "A purchase order for medicines from a distributor has been processed",
+      "when": "The system updates the inventory based on the purchase",
+      "then": "The available quantity of each purchased medicine should automatically increase in the inventory"
+    },
+    {
+      "given": "Sales activities have been recorded in the system",
+      "when": "An employee requests a sales report for daily, weekly, monthly, or custom date ranges",
+      "then": "The system should generate a detailed sales report including total sales and top-selling medicines"
+    },
+    {
+      "given": "Purchase transactions have been recorded in the system",
+      "when": "An employee requests a purchase report",
+      "then": "The system should display detailed reports including total expenditure and quantities purchased"
+    },
+    {
+      "given": "Medicine inventory data is available in the system",
+      "when": "An employee requests a medicine report",
+      "then": "The system should generate comprehensive reports including stock levels, expiration dates, and reorder suggestions"
+    },
+    {
+      "given": "Both sales and purchase transactions are recorded in the system",
+      "when": "An employee requests a net profit report",
+      "then": "The system should calculate and provide a report on the net profit"
+    },
+    {
+      "given": "Medicine expiration dates are stored in the system",
+      "when": "The expiration date of a medicine is approaching",
+      "then": "The system should generate an alert for employees, allowing timely actions like marking for discounts or removal"
+    },
+    {
+      "given": "An employee attempts to access the Pharmacy Management System",
+      "when": "They provide their login credentials",
+      "then": "The system should use a secure login mechanism with role-based access control, allowing access only to functions relevant to their role"
+    },
+    {
+      "given": "An employee performs actions within the system",
+      "when": "They log in, log out, conduct sales, make purchases, or perform other system operations",
+      "then": "The system should maintain a detailed activity log for that employee"
+    },
+    {
+      "given": "An employee needs to return medicine to a distributor",
+      "when": "They initiate a return process within the specified time frame, recording reasons and quantities",
+      "then": "The system should allow processing returns of medicines to distributors and record the relevant details"
+    },
+    {
+      "given": "A return of medicine to a distributor has been successfully processed",
+      "when": "The system updates the inventory",
+      "then": "The available quantity of the returned medicines should automatically decrease in the inventory, reflecting accurate stock levels"
+    },
+    {
+      "given": "A user is performing a standard interaction within the system",
+      "when": "The system processes the user's action",
+      "then": "The system should respond within two seconds under normal operating conditions"
+    },
+    {
+      "given": "A user requests to generate a report",
+      "when": "The system processes the request and generates the report",
+      "then": "The time taken to generate the report should not exceed five seconds"
+    },
+    {
+      "given": "The system experiences a failure",
+      "when": "The system initiates its recovery procedures",
+      "then": "The system should recover within five minutes with minimal data loss"
+    },
+    {
+      "given": "Sensitive customer or employee data is present in the system",
+      "when": "The system transmits or stores this sensitive data",
+      "then": "All sensitive data should be encrypted during transmission and storage"
+    },
+    {
+      "given": "An employee is assigned a specific role within the system",
+      "when": "The employee attempts to access a specific functionality",
+      "then": "The employee should only be able to access functionalities based on their assigned role"
+    },
+    {
+      "given": "A user creates or updates their password",
+      "when": "The system stores the user's password",
+      "then": "The password should be stored securely using industry-standard hashing algorithms"
+    },
+    {
+      "given": "A user provides invalid input into a form field",
+      "when": "The user attempts to submit the input",
+      "then": "The system should provide a clear error message and guidance to the user"
+    },
+    {
+      "given": "The system is scheduled for maintenance",
+      "when": "The maintenance period approaches",
+      "then": "The scheduled maintenance should be communicated to users in advance"
+    },
+    {
+      "given": "The system is operating normally and the scheduled time for backup arrives",
+      "when": "The system performs its backup routine",
+      "then": "Regular automated backups of the database and system configuration should be performed"
+    },
+    {
+      "given": "Automated backups of the system are performed",
+      "when": "The backup data is stored",
+      "then": "The backup data should be stored in a geographically separate location"
+    },
+    {
+      "given": "A user (Doctor or Employee) is not logged into the system",
+      "when": "The user enters a valid username and password and attempts to log in",
+      "then": "The user should be successfully logged into the system"
+    },
+    {
+      "given": "A user (Doctor or Employee) is not logged into the system",
+      "when": "The user enters an incorrect username or password and attempts to log in",
+      "then": "The system should display a message indicating 'invalid user name or password'"
+    },
+    {
+      "given": "The pharmacy needs certain types of medicine and a user (Doctor or Employee) wants to purchase medicine from distributors",
+      "when": "The user enters the type and amount for each needed medicine and clicks the 'buy' button",
+      "then": "The system should display the total amount of money required and the medicine should be successfully recorded as bought"
+    },
+    {
+      "given": "Medicine is available in stock in the pharmacy, a customer intends to purchase medicine, and a user (Doctor or Employee) wants to sell medicine",
+      "when": "The user enters the type and amount of medicine to be sold for each type and clicks the 'sell' button",
+      "then": "The system should process the sale transaction, record the medicine as sold, and update the inventory accordingly"
+    },
+    {
+      "given": "A customer wants to purchase medicine, and the medicine is available in the pharmacy.",
+      "when": "The employee processes the sale of the medicine.",
+      "then": "A message displays the total amount of money required, and the medicine is successfully sold to the customer."
+    },
+    {
+      "given": "A customer wants to purchase a specific medicine.",
+      "when": "The employee attempts to sell the medicine, but it is not sufficiently available in the pharmacy.",
+      "then": "A message displays \"some kind of medicine is not enough\"."
+    },
+    {
+      "given": "A customer wants to return medicine, and the medicine hasn't been returned yet.",
+      "when": "The user (Doctor or employee) enters the type and amount of medicine to be returned, and clicks the return button.",
+      "then": "A message displays the amount of money to return to the customer, and the medicine is successfully returned to the pharmacy."
+    },
+    {
+      "given": "Medicine is in the pharmacy, and meets the criteria for returning to the distributer (e.g., near expiration, overstock, or pharmacy needs money).",
+      "when": "The user (Doctor or employee) enters the type and amount of medicine to be returned to the distributer, and clicks the return button.",
+      "then": "A message displays the amount of money expected from the distributer, and the medicine is successfully returned to the distributer."
+    },
+    {
+      "given": "The pharmacy intends to return medicine to a distributer.",
+      "when": "The user (Doctor or employee) attempts to return a medicine that is not present in the pharmacy's stock.",
+      "then": "A message states \"some kind of medicine is not enough\"."
+    },
+    {
+      "given": "There is medicine in stock that is about to expire, and an expiration report has not been created yet.",
+      "when": "The user (Doctor or employee) navigates to the expiration notification tab and clicks the \"create report\" button.",
+      "then": "A message displays \"report created successfully\", and the expiration report is generated."
+    },
+    {
+      "given": "There is no medicine in stock that is about to expire.",
+      "when": "The user (Doctor or employee) attempts to create an expiration report.",
+      "then": "A message states \"no medicine to get reported\"."
+    },
+    {
+      "given": "A new employee has been hired, and needs an account to access the system.",
+      "when": "The Doctor enters a unique username, the employee's name, and matching passwords, then clicks \"create account\".",
+      "then": "A message displays \"account created successfully\", and the new employee account is active."
+    },
+    {
+      "given": "The Doctor is creating a new employee account.",
+      "when": "The Doctor enters non-matching passwords in the password fields and clicks \"create account\".",
+      "then": "A message displays \"password is not correct\"."
+    },
+    {
+      "given": "The Doctor is creating a new employee account.",
+      "when": "The Doctor enters an empty or invalid username and clicks \"create account\".",
+      "then": "A message displays \"invalid username\"."
+    },
+    {
+      "given": "The Doctor is creating a new employee account.",
+      "when": "The Doctor enters an empty name field and clicks \"create account\".",
+      "then": "A message displays \"enter name\"."
+    },
+    {
+      "given": "An employee account exists in the system, and the employee is no longer working in the pharmacy.",
+      "when": "The Doctor enters the username of the employee to be deleted, confirms with their own password, and clicks \"delete account\".",
+      "then": "The employee account is successfully deleted from the system."
+    },
+    {
+      "given": "An authenticated user has an existing account.",
+      "when": "The user initiates the deletion of their account.",
+      "then": "The system displays \"account deleted successfully\" and the user's account is no longer present in the system."
+    },
+    {
+      "given": "An authenticated user.",
+      "when": "The user attempts to delete an account that is not in the system.",
+      "then": "The system indicates that the \"Account is not in the system\" and prevents the deletion."
+    },
+    {
+      "given": "A user attempts to perform an action requiring re-authentication or initial authentication.",
+      "when": "The user provides an invalid username or password during the authentication step.",
+      "then": "The system displays \"invalid username or password\" and the action is not completed."
+    },
+    {
+      "given": "A Doctor is logged into the system and needs to review the history of system operations.",
+      "when": "The Doctor selects the \"history\" button.",
+      "then": "The system displays the history of all operations performed on the system, allowing the Doctor to successfully review it."
+    }
+  ]
+}
